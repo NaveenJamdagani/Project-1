@@ -1,0 +1,137 @@
+html,body
+{
+	width: 100%;
+	height: auto;
+	font-family: sans-serif;
+}
+
+*
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: 0;
+	box-shadow: none;
+	border-spacing: 0;
+	box-sizing: border-box;
+}
+
+/*-------------Header-container-------------*/
+#header-container
+{
+	background-image: url("../images/a.jpg");
+	margin-bottom: 1em;
+}
+
+#header
+{
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+	color: white;
+	background-image: url("../images/a.jpg");
+	position: relative;
+}
+
+#header div
+{
+	margin-bottom: 1em;
+}
+
+#header-container:after
+{
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+#site-logo
+{
+	width: 100%;
+	border-bottom: 2px solid #303031;
+	padding: 0.2em;
+	font-size: 2em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#site-caption
+{
+	width: 65%;
+	float: left;
+	padding-top: 5em;
+}
+
+#site-caption h1
+{
+	font-size: 3em;
+}
+
+#site-caption h2
+{
+	font-size: 1.2em;
+	font-weight: normal;
+	padding: 1em 0 0 1em;
+}
+
+#sign-in
+{
+	width: 35%;
+	float: left;
+	background-color: #42528c;
+	padding: 1em;
+	border-radius: 0.5em;
+}
+
+#input-title
+{
+	font-size: 1.2em;
+}
+
+#sign-in input
+{
+	width: 100%;
+	padding: 0.5em 1em;
+	border-radius: 0.5em;
+	margin: 0.5em;
+	font-size: 1.2em;
+}
+
+#input-field input:last-child
+{
+	background-color: #4a90e2;
+	color: white;
+}
+
+#sign-in div
+{
+	margin: 1em;
+}
+
+/*-----------------Content---------------*/
+#content
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#site-intro
+{
+	text-align: center;
+	padding: 1em 0;
+}
+
+#site-intro h1
+{
+	padding-bottom: 1em;
+	font-size: 2em;
+}
+
+#site-intro p
+{
+	color: #626262;
+	font-size: 1.2em;
+	padding-bottom: 1em;
+	line-height: 2em;
+}
