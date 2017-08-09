@@ -3,6 +3,10 @@ html,body
 	width: 100%;
 	height: auto;
 	font-family: sans-serif;
+	background-image: url("../images/a.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 *
@@ -19,7 +23,6 @@ html,body
 /*-------------Header-container-------------*/
 #header-container
 {
-	background-image: url("../images/a.jpg");
 	margin-bottom: 1em;
 }
 
@@ -111,6 +114,11 @@ html,body
 }
 
 /*-----------------Content---------------*/
+#content-wrapper
+{
+	background-color: white;
+}
+
 #content
 {
 	width: 80%;
@@ -189,6 +197,7 @@ html,body
 #user-benefits
 {
 	margin-bottom: 5em;
+	background-color: white;
 }
 
 #advantage-wrapper
@@ -233,12 +242,6 @@ html,body
 }
 
 /*---------------contact now----------------*/
-#contact-now
-{
-	background-image: url("../images/b.jpg");
-	background-size: cover;
-}
-
 #contact-wrapper
 {
 	width: 80%;
@@ -266,6 +269,11 @@ html,body
 }
 
 /*---------------call me--------------*/
+#call-me
+{
+	background-color: white;
+}
+
 #call-wrapper
 {
 	width: 80%;
