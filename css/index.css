@@ -186,6 +186,11 @@ html,body
 }
 
 /*--------------user benefits--------------*/
+#user-benefits
+{
+	margin-bottom: 5em;
+}
+
 #advantage-wrapper
 {
 	width: 80%;
@@ -225,4 +230,63 @@ html,body
 	color: #42c0fb;
 	padding-right: 1em;
 	font-weight: bold;
+}
+
+/*---------------contact now----------------*/
+#contact-now
+{
+	background-image: url("../images/b.jpg");
+	background-size: cover;
+}
+
+#contact-wrapper
+{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	color: white;
+	text-align: center;
+}
+
+#contact-wrapper h1
+{
+	padding-top: 5em;
+	font-size: 2.5em;
+}
+
+#contact-wrapper input
+{
+	margin-bottom: 5em;
+	padding: 1em 3em;
+	background-color: #40c2f2;
+	color: white;
+	font-size: 2em;
+	margin-top: 2em;
+	border-radius: 0.2em;
+}
+
+/*---------------call me--------------*/
+#call-wrapper
+{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5em 0;
+}
+
+#call-wrapper span
+{
+	display: block;
+}
+
+#call-wrapper span:first-child
+{
+	font-size: 2.5em;
+	color: #4a4a4a;
+}
+
+#call-wrapper span:last-child
+{
+	font-size: 1.2em;
+	color: #4a4a4a;
 }
