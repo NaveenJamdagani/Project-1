@@ -86,7 +86,7 @@ html,body
 
 #input-title
 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	text-align: center;
 }
 
@@ -95,7 +95,7 @@ html,body
 	width: 100%;
 	padding: 0.5em 1em;
 	border-radius: 0.5em;
-	margin: 0.5em;
+	margin-bottom: 1em;
 	font-size: 1.2em;
 }
 
