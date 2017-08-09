@@ -232,12 +232,15 @@ html,body
 	font-size: 2em;
 	color: #4c4c4c;
 	padding-bottom: 1em;
+	padding-left: 1em;
+	position: relative;
 }
 
 #advantage-wrapper i
 {
 	color: #42c0fb;
-	padding-right: 1em;
+	position: absolute;
+	left: 0;
 	font-weight: bold;
 }
 
