@@ -153,6 +153,7 @@ html,body
 	color: white;
 	text-align: center;
 	padding: 5em 0;
+	position: relative;
 }
 
 #site-features:after
@@ -172,6 +173,10 @@ html,body
 #wrapper h1
 {
 	font-size: 2.5em;
+	position: absolute;
+	top: 2em;
+	left: 50%;
+	transform: translate(-50%);
 }
 
 .feature-types
