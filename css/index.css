@@ -324,4 +324,9 @@ html,body
 	{
 		width: 100%;
 	}   
+
+	#wrapper h1
+	{
+		margin-bottom: 5em;
+	}
 }
