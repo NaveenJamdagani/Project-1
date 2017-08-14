@@ -16,6 +16,11 @@ html,body
 	box-sizing: border-box;
 }
 
+.active
+{
+	display: block;
+}
+
 /*-------------Header-container-------------*/
 #header-container
 {
@@ -33,6 +38,16 @@ html,body
 	margin: 0 auto;
 	color: white;
 	position: relative;
+}
+
+#abc
+{
+	display: none;
+}
+
+#header i:hover
+{
+	cursor: pointer;
 }
 
 #header div
@@ -316,6 +331,17 @@ html,body
 /*----------------For Mobile------------*/
 @media screen and (max-width: 600px) 
 {
+
+	#site-caption 
+	{
+		width: 100%;
+	}
+
+	#abc
+	{
+		display: block;
+	}
+
 	#sign-in
 	{
 		display: none;
