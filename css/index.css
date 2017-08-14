@@ -143,7 +143,10 @@ html,body
 /*----------------#site-features---------------*/
 #site-features
 {
-	background-color: #3f4f88;
+	background-image: url("../images/c.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 	text-align: center;
 	padding: 5em 0;
@@ -196,7 +199,6 @@ html,body
 #user-benefits
 {
 	margin-bottom: 5em;
-	background-color: white;
 }
 
 #advantage-wrapper
