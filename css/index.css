@@ -3,10 +3,6 @@ html,body
 	width: 100%;
 	height: auto;
 	font-family: sans-serif;
-	background-image: url("../images/a.jpg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 *
@@ -24,6 +20,10 @@ html,body
 #header-container
 {
 	margin-bottom: 1em;
+	background-image: url("../images/a.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #header
@@ -32,7 +32,6 @@ html,body
 	height: 80%;
 	margin: 0 auto;
 	color: white;
-	background-image: url("../images/a.jpg");
 	position: relative;
 }
 
@@ -114,11 +113,6 @@ html,body
 }
 
 /*-----------------Content---------------*/
-#content-wrapper
-{
-	background-color: white;
-}
-
 #content
 {
 	width: 80%;
@@ -250,6 +244,14 @@ html,body
 }
 
 /*---------------contact now----------------*/
+#contact-now
+{
+	background-image: url("../images/b.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #contact-wrapper
 {
 	width: 80%;
