@@ -306,3 +306,18 @@ html,body
 	font-size: 1.2em;
 	color: #4a4a4a;
 }
+
+
+/*----------------For Mobile------------*/
+@media screen and (max-width: 600px) 
+{
+	#sign-in
+	{
+		display: none;
+	} 
+
+	.feature-types
+	{
+		width: 100%;
+	}   
+}
