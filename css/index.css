@@ -16,11 +16,6 @@ html,body
 	box-sizing: border-box;
 }
 
-.active
-{
-	display: block;
-}
-
 /*-------------Header-container-------------*/
 #header-container
 {
@@ -38,11 +33,6 @@ html,body
 	margin: 0 auto;
 	color: white;
 	position: relative;
-}
-
-#abc
-{
-	display: none;
 }
 
 #header i:hover
@@ -344,7 +334,7 @@ html,body
 
 	#sign-in
 	{
-		display: none;
+		width: 100%;
 	} 
 
 	.feature-types
